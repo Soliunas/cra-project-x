@@ -22,19 +22,10 @@
   
   input::placeholder {
     color: grey;
-    font-size: 0.7rem;
-    text-transform: capitalize;
-    padding-left: 0.7rem;
+    font-size: 10px;
   }
   
-  .nav {
-    display: flex;
-    align-items: left;
-    gap: 2rem;
-  }
-
   .active {
-    padding-right: 30%;
     color: grey;
     text-decoration: none;
   }
@@ -42,5 +33,5 @@
   .right {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 20px;
   }
