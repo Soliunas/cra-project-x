@@ -1,8 +1,8 @@
-import { LiaEnvelopeOpenSolid } from "react-icons/lia";
-import { PiBellThin } from "react-icons/pi";
 import logo from "../../img/mediwave.png";
 import face from '../../img/topface.png'
 import style from "./Header.module.css";
+import { LiaEnvelopeOpenSolid } from "react-icons/lia";
+import { PiBellThin } from "react-icons/pi";
 
 
 export function Header() {

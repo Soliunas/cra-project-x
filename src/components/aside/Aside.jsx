@@ -1,6 +1,6 @@
 import style from "./Aside.module.css";
-import { BsCalendarPlus, BsInfoCircle, BsPeopleFill } from "react-icons/bs";
-import { LiaCalendarSolid } from "react-icons/lia";
+import { BsInfoCircle, BsPeople } from "react-icons/bs";
+import { LiaCalendar } from "react-icons/lia";
 import { FaRegHospital } from "react-icons/fa";
 import { CiSettings } from "react-icons/ci";
 import { GrDashboard } from "react-icons/gr";
@@ -17,19 +17,19 @@ export function Aside() {
           </a>
         </div>
         <div className={style.asideicon}>
-          <BsCalendarPlus size="20px" color="#aaa" />
+          <LiaCalendar size="20px" color="#aaa" />
           <a className={style.active} href=" ">
             Appointments
           </a>
         </div>
         <div className={style.asideicon}>
-          <LiaCalendarSolid size="20px" color="#aaa" />
+          <LiaCalendar size="20px" color="#aaa" />
           <a className={style.active} href=" ">
             Calendar
           </a>
         </div>
         <div className={style.asideicon}>
-          <BsPeopleFill size="20px" color="#aaa" />
+          <BsPeople size="20px" color="#aaa" />
           <a className={style.active} href=" ">
             Patients
           </a>

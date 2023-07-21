@@ -1,9 +1,9 @@
 import React from 'react';
 import style from "./Main.module.css";
-import { IoMdPerson } from "react-icons/io";
+import { IoMdPersonAdd } from "react-icons/io";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { FaRegHospital } from "react-icons/fa";
-import { LiaCalendarSolid } from "react-icons/lia";
+import { LiaCalendar } from "react-icons/lia";
 
 
 export function Main({ appointmentsData }) {
@@ -13,7 +13,7 @@ export function Main({ appointmentsData }) {
         <h1>Overview</h1>
         <div className={style.team}>
           <div className={style.team}>
-            <IoMdPerson size="20px" color="#aaa" />
+            <IoMdPersonAdd size="20px" color="#aaa" />
             <p>Md Rayhan Islam</p>
             <MdOutlineKeyboardArrowDown size="20px" color="#aaa" />
           </div>
@@ -23,7 +23,7 @@ export function Main({ appointmentsData }) {
             <MdOutlineKeyboardArrowDown size="20px" color="#aaa" />
           </div>
           <div className={style.team}>
-            <LiaCalendarSolid />
+            <LiaCalendar />
             <p>Todays</p>
             <MdOutlineKeyboardArrowDown size="20px" color="#aaa" />
           </div>
