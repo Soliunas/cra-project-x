@@ -1,0 +1,46 @@
+.header {
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: #fff;
+    box-shadow: 0px 10px 10px #0002;
+  }
+
+  .logo {
+    border: #1a1818;
+  }
+  
+  input {
+    width: 300px;
+    line-height: 30px;
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: grey; 
+  }
+  
+  input::placeholder {
+    color: grey;
+    font-size: 0.7rem;
+    text-transform: capitalize;
+    padding-left: 0.7rem;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: left;
+    gap: 2rem;
+  }
+
+  .active {
+    padding-right: 30%;
+    color: grey;
+    text-decoration: none;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
