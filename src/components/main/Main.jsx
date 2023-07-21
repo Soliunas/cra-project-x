@@ -1,16 +1,15 @@
 import React from 'react';
 import style from "./Main.module.css";
 import { Column } from "./Column";
-import { LiaCalendarSolid } from "react-icons/lia";
-import { FaRegHospital } from "react-icons/fa";
 import { IoMdPerson } from "react-icons/io";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
-
+import { FaRegHospital } from "react-icons/fa";
+import { LiaCalendarSolid } from "react-icons/lia";
 
 export function Main({ appointmentsData }) {
   return (
     <main className={style.main}>
-      <div className={style.header}>
+      <div className={style.mainheader}>
         <h1>Overview</h1>
         <div className={style.team}>
           <div className={style.team}>

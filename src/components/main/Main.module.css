@@ -5,14 +5,14 @@
     padding: 2rem 3rem;
   }
   
-  .header {
+.mainheader {
     grid-column: span 4;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   
-  .team {
+.team {
     border: 20px;
     display: flex;
     gap: 1rem;
