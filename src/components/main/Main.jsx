@@ -11,18 +11,18 @@ export function Main({ appointmentsData }) {
     <main className={style.main}>
       <div className={style.mainheader}>
         <h1>Overview</h1>
-        <div className={style.team}>
-          <div className={style.team}>
+        <div className={style.people}>
+          <div className={style.people}>
             <IoMdPersonAdd size="20px" color="#aaa" />
             <p>Md Rayhan Islam</p>
             <MdOutlineKeyboardArrowDown size="20px" color="#aaa" />
           </div>
-          <div className={style.team}>
+          <div className={style.people}>
             <FaRegHospital />
             <p>Central Clinic, Dhaka</p>
             <MdOutlineKeyboardArrowDown size="20px" color="#aaa" />
           </div>
-          <div className={style.team}>
+          <div className={style.people}>
             <LiaCalendar />
             <p>Todays</p>
             <MdOutlineKeyboardArrowDown size="20px" color="#aaa" />

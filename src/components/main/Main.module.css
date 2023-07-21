@@ -12,29 +12,9 @@
     align-items: center;
   }
   
-.team {
+.people {
     border: 20px;
     display: flex;
     gap: 20px;
     align-items: center;
-  }
-  
-  .column {
-    background-color: white;
-    display: flex;
-    border-radius: 5px;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .cardList {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .card {
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 20px;
   }

@@ -8,15 +8,15 @@ import { PiBellThin } from "react-icons/pi";
 export function Header() {
   return (
     <header className={style.header}>
-      <div className={style.left}>
-        <img className={style.logo} src={logo} alt="Logo" />
+      <div className={style.leftside}>
+        <img className={style.logo} src={logo} alt="MediWave" />
       </div>
-      <nav className={style.nav}>
+      <nav className={style.navigation}>
         <a className={style.active} href=" ">
           Appointments
         </a>
       </nav>
-      <div className={style.right}>
+      <div className={style.rightside}>
         <form className={style.search}>
           <input placeholder="Search..."/>
         </form>
