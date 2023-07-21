@@ -1,4 +1,4 @@
-import { LiaEnvelopeOpenTextSolid } from "react-icons/lia";
+import { LiaEnvelopeOpenSolid } from "react-icons/lia";
 import { PiBellThin } from "react-icons/pi";
 import logo from "../../img/mediwave.png";
 import face from '../../img/topface.png'
@@ -12,7 +12,7 @@ export function Header() {
         <img className={style.logo} src={logo} alt="Logo" />
       </div>
       <nav className={style.nav}>
-        <a className={style.active} href="/">
+        <a className={style.active} href=" ">
           Appointments
         </a>
       </nav>
@@ -21,7 +21,7 @@ export function Header() {
           <input placeholder="Search..."/>
         </form>
         <PiBellThin size="20px" color="#aaa" />
-        <LiaEnvelopeOpenTextSolid size="20px" color="#aaa" />
+        <LiaEnvelopeOpenSolid size="20px" color="#aaa" />
         <img className={style.logo} src={face} alt="face" />
       </div>
     </header>
