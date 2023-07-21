@@ -18,10 +18,10 @@ export function Header() {
       </nav>
       <div className={style.right}>
         <form className={style.search}>
-          <input placeholder="Search..." type="search" />
+          <input placeholder="Search..."/>
         </form>
-        <PiBellThin size="1.5rem" color="#aaa" />
-        <LiaEnvelopeOpenTextSolid size="1.5rem" color="#aaa" />
+        <PiBellThin size="20px" color="#aaa" />
+        <LiaEnvelopeOpenTextSolid size="20px" color="#aaa" />
         <img className={style.logo} src={face} alt="face" />
       </div>
     </header>
