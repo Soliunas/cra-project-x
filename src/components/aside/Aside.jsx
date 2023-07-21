@@ -11,38 +11,38 @@ export function Aside() {
     <aside className={style.header}>
       <nav>
         <div className={style.asideicon}>
-          <GrDashboard size="1rem" color="#aaa" />
-          <a className={style.active} href="/">
+          <GrDashboard size="20px" color="#aaa" />
+          <a className={style.active} href=" ">
             Dashboard
           </a>
         </div>
         <div className={style.asideicon}>
-          <BsCalendarPlus size="1rem" color="#aaa" />
-          <a className={style.active} href="/">
+          <BsCalendarPlus size="20px" color="#aaa" />
+          <a className={style.active} href=" ">
             Appointments
           </a>
         </div>
         <div className={style.asideicon}>
-          <LiaCalendarSolid size="1rem" color="#aaa" />
-          <a className={style.active} href="/">
+          <LiaCalendarSolid size="20px" color="#aaa" />
+          <a className={style.active} href=" ">
             Calendar
           </a>
         </div>
         <div className={style.asideicon}>
-          <BsPeopleFill size="1rem" color="#aaa" />
-          <a className={style.active} href="/">
+          <BsPeopleFill size="20px" color="#aaa" />
+          <a className={style.active} href=" ">
             Patients
           </a>
         </div>
         <div className={style.asideicon}>
-          <IoMdPerson size="1rem" color="#aaa" />
-          <a className={style.active} href="/">
+          <IoMdPerson size="20px" color="#aaa" />
+          <a className={style.active} href=" ">
             Doctors
           </a>
         </div>
         <div className={style.asideicon}>
-          <FaRegHospital size="1rem" color="#aaa" />
-          <a className={style.active} href="/">
+          <FaRegHospital size="20px" color="#aaa" />
+          <a className={style.active} href=" ">
             Clinics
           </a>
         </div>
@@ -50,14 +50,14 @@ export function Aside() {
       <div className={style.asideicon}>
         <nav>
           <div className={style.asideicon}>
-            <CiSettings size="1rem" color="#aaa" />
-            <a className={style.active} href="/">
+            <CiSettings size="20px" color="#aaa" />
+            <a className={style.active} href=" ">
               Settings
             </a>
           </div>
           <div className={style.asideicon}>
-            <BsInfoCircle size="1rem" color="#aaa" />
-            <a className={style.active} href="/">
+            <BsInfoCircle size="20px" color="#aaa" />
+            <a className={style.active} href=" ">
               Help
             </a>
           </div>
